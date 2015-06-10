@@ -1,0 +1,5 @@
+== README
+
+My version of the One Month Rails app.
+
+by ZachDurden
