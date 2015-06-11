@@ -1,0 +1,30 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.jumbotron {
+	
+	background-size: cover;
+	background-position: center;
+	min-height: 600px;
+	
+
+}
+
+.jumbotroncontainer {
+	
+	padding-top: 12%;
+	text-align: center;
+
+}
+
+
+
+.footer {
+	margin-top: 50px;
+	text-align: center;
+	
+}
