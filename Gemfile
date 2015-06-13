@@ -7,6 +7,10 @@ group :production do
 
 end
 
+gem 'simple_form'
+
+gem 'devise'
+
 gem 'bootstrap-sass', '~> 3.3.4'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

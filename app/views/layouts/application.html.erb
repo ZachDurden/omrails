@@ -9,11 +9,26 @@
 	<body>
 
 		<%= render 'layouts/header' %>
-		
-		<%= yield %>
-
+		<div class="container">	
+			<% flash.each do |key, value| %>
+  <div class="alert alert-<%= key %>">
+    <a href="#" data-dismiss="alert" class="close">×</a>
+      <ul>
+        <li>
+          <%= value %>
+        </li>
+      </ul>
+  </div>
+<% end %>
+				</div>
+		<% if current_page?('/') %>
+			<%= yield %>
+			<% else %>
+			<div class="container">
+			<%= yield %>
+			</div>
+			<% end %>
 		<div class="container">
-			
 			<%= render 'layouts/footer' %>
 		</div>
 

@@ -1,17 +1,18 @@
-<div class="jumbotron">
-	<div class="jumbotroncontainer">
+<div class="jumbotron" container-fluid>
+	<div class="container-fluid">
+		<div class="jumbotrontextcontainer">
 	<h1>Welcome to One Month Rails</h1>
 	<p>
-
-	You've found the home page for
-	<%= link_to "One Month Rails", "http://onemonthrails.com" %>
-
-	</p>
+		You've found the home page for
+		<%= link_to "One Month Rails", "http://onemonthrails.com" %>
+  </p>
 	<p>
-		<%= link_to "Sign Up Now!", "#", class: "btn btn-primary btn-lg" %>
+		<%= link_to "Sign Up Now!", new_user_registration_path, class: "btn btn-primary btn-lg" %>
 	</p>
+		</div>
 	</div>
 </div>
+
 
 
 
