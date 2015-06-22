@@ -1,8 +1,21 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+
+
 
 .navbar {
+
 	margin-bottom: 0;
+	background-color: #424242;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
 }
 
 .jumbotron {
@@ -12,7 +25,8 @@
 	
 
 .jumbotrontextcontainer {
-	
+
+		font-family: 'Oxygen', sans-serif;
   	text-align: center;
   	padding-top: 12%;
 }
