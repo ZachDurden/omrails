@@ -7,6 +7,8 @@ group :production do
 
 end
 
+gem "paperclip", "~> 4.2"
+
 gem 'simple_form'
 
 gem 'devise'
