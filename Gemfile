@@ -7,6 +7,8 @@ group :production do
 
 end
 
+gem 'masonry-rails'
+
 gem "paperclip", "~> 4.2"
 
 gem 'simple_form'
